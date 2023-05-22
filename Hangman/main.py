@@ -247,9 +247,11 @@ def start():
                             print("=======")
                             print("")                      
                         #==================================# Info
+                        print("")
                         print("You have", lives, "lives!")
                         print("Letters you have guessed:", sorted(entered_letters))
                         print("Your current guess is:", answer)
+                        print("")
                         #==================================# Enter Letter
                         letterchoice = input("Please input a letter in the English Alphabet to guess: ")
                         letterchoice = letterchoice.lower()
@@ -280,11 +282,14 @@ def start():
                                     answer = list(answer)
                                     y = found[x]
                                     answer[y] = selectedword[y]
-                                    answer = ''.join(answer)    
+                                    answer = ''.join(answer)
+                            print("")
+                            print("This letter is in the word!")    
                         #==================================# Wrong Letter                  
                         else:
                             entered_letters.append(letterchoice)
                             lives = lives - 1
+                            print("")
                             print("This letter is not in the word. You have lost a life.")
                         #==================================# Player Lose
                         if lives == 0:
@@ -310,7 +315,6 @@ def start():
                     #==================================# Error
                     except ValueError:
                         print("Please try again.")
-                        print("")
             #_____________________________________________________________# View the leaderboard
             elif mode == "lb":
                 print("")
