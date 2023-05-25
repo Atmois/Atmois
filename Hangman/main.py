@@ -1,16 +1,14 @@
-import random, json, colorama, base64
+import random, json, colorama, hashlib
 #_____________________________________________________________# Variables - DO NOT CHANGE THESE WHATSOEVER, IT WILL 100% BREAK SOMETHING
 run = True 
 lives = 6
 wordaddlist = []
-newword = "hello"
-wordlist = []
 entered_letters = []
 #_____________________________________________________________# Functions
 #==================================# Login
 def login():
     global username
-    while run == True:
+    while run:
         try:
             username = input("\nEnter your username: ")
             #==================================# Username Check
@@ -39,7 +37,7 @@ def play():
     file.close()
     selectedword = random.choice(wordlist)
     answer = "_" * len(selectedword) # Output
-    while run == True:
+    while run:
         try:            
             #==================================# Info
             showlives(lives)
@@ -132,8 +130,8 @@ def usernamecheck(username):
     with open("logins.json", "r") as file:
         logins = json.load(file)
     for entry in logins:
-        decoded_username = base64.b64decode(entry["username"]).decode()
-        if decoded_username == username:
+        decoded_username = entry["username"]
+        if username == decoded_username:
             return True
     return False
 #==================================# Check if Account Exists
@@ -141,14 +139,14 @@ def acccheck(username, password):
     with open("logins.json", "r") as file:
         logins = json.load(file)
     for entry in logins:
-        decoded_username = base64.b64decode(entry["username"]).decode()
-        decoded_password = base64.b64decode(entry["password"]).decode()
-        if decoded_username == username and decoded_password == password:
+        decoded_username = entry["username"]
+        decoded_password = entry["password"]
+        if decoded_username == username and hashlib.sha256(password.encode()).hexdigest() == decoded_password:
             return True
-    return False
+    return False    
 #==================================# Add New Login
 def newuser():
-    while True:
+    while run:
         try:
             #==================================# Asks for new Username
             with open("logins.json", "r") as file:
@@ -160,7 +158,7 @@ def newuser():
                     print("\033[38;5;9mUsername already exists.\033[0;0m")
                     raise ValueError
             #==================================# Asks for and Checks Password Strength
-            while True:
+            while run:
                 try:
                     #==================================# Variables
                     strength = 0
@@ -216,7 +214,8 @@ def newuser():
                 except ValueError:
                     pass
             #==================================# Saves new Login
-            new_entry = {"username": base64.b64encode(username.encode()).decode(), "password": base64.b64encode(password.encode()).decode()}
+            password_hash = hashlib.sha256(password.encode()).hexdigest()
+            new_entry = {"username": username, "password": password_hash}
             logins.append(new_entry)
             with open('logins.json', 'w') as file:
                 json.dump(logins, file, indent=4)
@@ -301,7 +300,7 @@ def removeword():
     options()
 #==================================# Add word to database
 def addword():
-    while run == True:
+    while run:
         try:
             newword = input("\nPlease enter a word that is less than 24 characters to be entered into the database: ")
             newword = newword.lower()
@@ -341,7 +340,7 @@ def addword():
 def acc():
     accoption = input("\nLogin (Login) or Create Account (Create): ")
     accoption = accoption.lower()
-    while run == True:
+    while run:
         try:
             if accoption == "login":
                 login()
@@ -350,16 +349,17 @@ def acc():
             else:
                 raise ValueError
         except ValueError:
-            print("\033[38;5;9mInvalid Option\033[0;0m\n")
+            print("\033[38;5;9mInvalid Option\033[0;0m")
+            acc()
 #==================================# Mode Selector
 def options():
-    while run == True:    
+    while run:    
         try:
             mode = input("\nPlease select if you would like play the game (Play), see the Leaderboard (LB), edit the list of words (Edit) or end the code (End): ") 
             mode = mode.lower() 
             #_____________________________________________________________# Editmode Selector
             if mode == "edit": 
-                while run == True:
+                while run:
                     try:
                         editmode = input("\nPlease select what you would like to edit, to add a entry (Add), to remove a entry (Remove) or to view the list (View): ") 
                         editmode = editmode.lower()
