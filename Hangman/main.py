@@ -230,7 +230,7 @@ def viewwords():
     wordcount = len(wordlist)
     print("\nThere are", wordcount, "entries in the database.")
     print("\n", wordlist)
-    options()
+    editoptions()
 #==================================# Visual Life Output
 def showlives(lives):
     if lives == 0:
@@ -297,7 +297,7 @@ def removeword():
         print("\033[38;5;10m The word", removeword, "has been removed from the database.\033[0;0m")
     else:
         print("\033[38;5;9mThe word", removeword, "is not in the database.\033[0;0m")
-    options()
+    editoptions()
 #==================================# Add word to database
 def addword():
     while run:
@@ -333,7 +333,7 @@ def addword():
                         file.write("\n" + item)
                         file.close()
                     print('Done')
-                    options()
+                    editoptions()
         except ValueError:
             print("")
 #==================================# Login or Create Account
@@ -359,20 +359,7 @@ def options():
             mode = mode.lower() 
             #_____________________________________________________________# Editmode Selector
             if mode == "edit": 
-                while run:
-                    try:
-                        editmode = input("\nPlease select what you would like to edit, to add a entry (Add), to remove a entry (Remove) or to view the list (View): ") 
-                        editmode = editmode.lower()
-                        if editmode == "add":
-                            addword()
-                        elif editmode == "remove":
-                            removeword()
-                        elif editmode == "view":
-                            viewwords()
-                        else:
-                            raise ValueError
-                    except ValueError:
-                        print("\033[38;5;9mPlease enter a valid Edit Mode.\033[0;0m")
+                editoptions()
             elif mode == "play":
                 play()
             elif mode == "lb":
@@ -383,5 +370,23 @@ def options():
                 raise ValueError
         except ValueError:
             print("\033[38;5;9mPlease enter a valid mode.\033[0;0m")
+#==================================# Edit Mode Selector
+def editoptions():
+    while run:
+        try:
+            editmode = input("\nPlease select what you would like to edit, to add a entry (Add), to remove a entry (Remove), go to main menu (Menu) or to view the list (View): ") 
+            editmode = editmode.lower()
+            if editmode == "add":
+                addword()
+            elif editmode == "remove":
+                removeword()
+            elif editmode == "view":
+                viewwords()
+            elif editmode == 'menu':
+                options()
+            else:
+                raise ValueError
+        except ValueError:
+            print("\033[38;5;9mPlease enter a valid Edit Mode.\033[0;0m")
 #_____________________________________________________________# What Starts the Code
 acc()
