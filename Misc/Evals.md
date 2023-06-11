@@ -18,7 +18,7 @@ The first rank that one can progress to through an evaluation. It is a big turni
   * You are provided with the Gamepass Speed Coil.
 
 * **Phase 3:** Extinguish the fires from Cargo Bay 1B in 90 seconds.
-  * You are provided with the Gamepass Speed Coil & TR Shovel.
+  * You are provided with the Gamepass Speed Coil & RH Hose.
 
 * **Phase 4:** Answer 5 basic questions about the PET handbook and our duties around the PBCC. 
   * You only have to get 4 correct, but should really be aiming for 100%.
@@ -62,10 +62,10 @@ The second rank achievable within PET. By the time one reaches the rank of Dedic
   * You are provided with the Gamepasas Speed Coil & Gravity Coil.
 
 * **Phase 2:** Clear the debris from Cargo Bay 1C in 110 seconds.
-  * You are provided with the Gamepass Speed Coil & DR Shovel.
+  * You are provided with the Gamepass Speed Coil & TR Shovel.
 
 * **Phase 3:** Extinguish the fires and clear the debris from Cargo Bay 1B in 125 seconds.
-  * You are provided with the Gamepass Speed Coil, DR Shovel & DR Hose.
+  * You are provided with the Gamepass Speed Coil, TR Shovel & TR Hose.
 
 * **Phase 4:** In 65 seconds or less, fill up all three e-coolant pipes to a green capacity.
   * You are provided with the Gamepass Speed Coil.
@@ -106,7 +106,7 @@ The third and final rank in the main progression. For the regular participant, t
 (Takes place at [PBCC](www.roblox.com/games/17541193) !petserver)
 
 * **Phase 1:** Extinguish the fires and clear the debris from Cargo Bay 1C in 200 seconds.
-  * You are provided with the ER Shovel & Hose & the Gamepass Speed Coil.
+  * You are provided with the DR Shovel, DR Hose & the Gamepass Speed Coil.
 
 * **Phase 2:** A 5 question quiz relating to patrol knowledge and leadership, you must pass all phases above in order to be allowed to take the quiz.
 
