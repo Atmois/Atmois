@@ -11,10 +11,6 @@ I do a lot of random things all over the place! If you wish to contact me please
 
 * A massivly overcomplicated [hangman game](https://github.com/Atmois/Hangman) with logins, leaderboard and in game word database editing.
 
-* A simple [calculator](https://github.com/Atmois/CPPCalc) in C++ to learn the language.
-
-* A [demo C++ project](https://github.com/Atmois/CPPDemo) to show some basic things in C++ from a good tutorial I found.
-
 * My [website](https://atmois.com) which is [open source](https://github.com/Atmois/Website)!
 
 * Arranged:
