@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=BA45FF&random=false&width=435&lines=Atmois)](https://git.io/typing-svg)
 
-I do a lot of random things all over the place! If you wish to contact me please message me on discord: `@atmois`
+I do a lot of random things all over the place!
 
 ### My Skills
 [![Icons](https://skillicons.dev/icons?i=cpp,cs,py,astro,html,css,md,vscode,godot,git,linux)](https://skillicons.dev)
