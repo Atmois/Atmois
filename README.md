@@ -3,7 +3,7 @@
 I do a lot of random things all over the place!
 
 ### My Skills
-[![Icons](https://skillicons.dev/icons?i=cpp,cs,py,astro,html,css,md,vscode,godot,git,linux)](https://skillicons.dev)
+[![Icons](https://skillicons.dev/icons?i=cpp,py,astro,html,css,md,vscode,godot,git,docker,linux)](https://skillicons.dev)
 
 # Projects
 
