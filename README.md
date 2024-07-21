@@ -1,20 +1,7 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=BA45FF&random=false&width=435&lines=Atmois)](https://git.io/typing-svg)
-
-I do a lot of random things all over the place!
+Hi! I'm Atmois and I do a lot of random things all over the place! Most of it you can see on my [website](https://atmois.com)!
 
 ### My Skills
-[![Icons](https://skillicons.dev/icons?i=cpp,py,astro,html,css,md,vscode,godot,git,docker,linux)](https://skillicons.dev)
-
-# Projects
-
-* A massivly overcomplicated [hangman game](https://github.com/Atmois/Hangman) with logins, leaderboard and in game word database editing.
-
-* My [website](https://atmois.com) which is [open source](https://github.com/Atmois/Website)!
-
-* Arranged:
-
-  * [Resurrections from 'Celeste' by Lena Raine for String Quartet](https://ko-fi.com/s/e7e1e9822a)
-  * [Rooftop Run Act 1 from 'Sonic Generations' by Tomoya Ohtan & SEGA Sound Team for Wind Quintet](https://ko-fi.com/s/f2444f46ec)
+[![Icons](https://skillicons.dev/icons?i=py,astro,html,css,md,vscode,godot,git,docker,linux)](https://skillicons.dev)
 
 # Stats
 
@@ -27,5 +14,3 @@ I do a lot of random things all over the place!
 > Stats from [Github README Stats](https://github.com/anuraghazra/github-readme-stats)
 >
 > Icons from [Skill Icons](https://github.com/tandpfun/skill-icons)
->
-> Typing SVG from [README Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)
