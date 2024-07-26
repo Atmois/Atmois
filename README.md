@@ -1,7 +1,16 @@
 Hi! I'm Atmois and I do a lot of random things all over the place! Most of it you can see on my [website](https://atmois.com)!
 
 ### My Skills
-[![Icons](https://skillicons.dev/icons?i=py,astro,html,css,md,vscode,godot,git,docker,linux)](https://skillicons.dev)
+![Astro](icons/astro.svg)
+![CSS](icons/css.svg)
+![Docker](icons/docker.svg)
+![Git](icons/git.svg)
+![Godot](icons/godot.svg)
+![HTML](icons/html.svg)
+![Linux](icons/linux.svg)
+![Markdown](icons/md.svg)
+![Python](icons/py.svg)
+![VSCode](icons/vscode.svg)
 
 # Stats
 
@@ -12,5 +21,3 @@ Hi! I'm Atmois and I do a lot of random things all over the place! Most of it yo
 <hr>
 
 > Stats from [Github README Stats](https://github.com/anuraghazra/github-readme-stats)
->
-> Icons from [Skill Icons](https://github.com/tandpfun/skill-icons)
