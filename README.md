@@ -1,4 +1,4 @@
-Hi! I'm Atmois and I do a lot of random things all over the place! Most of it you can see on my [website](https://atmois.com)!
+Hi! I'm Atmois and I do a lot of random things all over the place! Most of it you can see on my [website](https://atmois.com)! I don't use GitHub much anymore, you can find most my repo's on [git.gay](https://git.gay/Atmois?tab=repositories)!
 
 ### My Skills
 ![Astro](icons/astro.svg)
@@ -16,8 +16,4 @@ Hi! I'm Atmois and I do a lot of random things all over the place! Most of it yo
 
 ![Stats](https://readme-stats-git-main-atmois-projects.vercel.app/api?username=Atmois&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide=stars)
 
-![Langs](https://readme-stats-git-main-atmois-projects.vercel.app/api/top-langs/?username=atmois&count_weight=0.5&exclude_repo=readme-stats,OldWebsite&theme=tokyonight&layout=pie)
-
 <hr>
-
-> Stats from [Github README Stats](https://github.com/anuraghazra/github-readme-stats)
