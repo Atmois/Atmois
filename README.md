@@ -15,5 +15,3 @@ Hi! I'm Atmois and I do a lot of random things all over the place! Most of it yo
 # Stats
 
 ![Stats](https://readme-stats-git-main-atmois-projects.vercel.app/api?username=Atmois&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide=stars)
-
-<hr>
