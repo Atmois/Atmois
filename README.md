@@ -15,7 +15,7 @@ Hi! I'm Atmois and I do a lot of random things all over the place! Most of it yo
 # Stats
 
 <a href="https://codestats.net/users/Atmois">
-  <img src='https://codestats-readme.wegfan.cn/history-graph/Atmois?width=1000&height=300&timezone=08:00&history_days=30&max_languages=12' alt="Atmois's Code::Stats History Graph" />
+  <img src='https://codestats-readme.wegfan.cn/history-graph/Atmois?width=1000&height=300&timezone=08:00&history_days=30&max_languages=12&bg_color=24273a' alt="Atmois's Code::Stats History Graph" />
 </a>
 
 
