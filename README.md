@@ -1,4 +1,4 @@
-Hi! I'm Atmois and I do a lot of random things all over the place! Most of it you can see on my [website](https://atmois.com)! I don't use GitHub much anymore, you can find most my repo's on [Codeberg](https://codeberg.org/Atmois)!
+Hi! I'm Atmois and I do a lot of random things all over the place! Most of it you can see on my [website](https://atmois.com)! I don't use GitHub much for my own projects anymore, most of which you can find most my repo's on [Codeberg](https://codeberg.org/Atmois)!
 
 ### My Skills
 ![Astro](icons/astro.svg)
